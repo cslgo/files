@@ -1,3 +1,4 @@
+# copy from https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
 ---
 kind: Namespace
 apiVersion: v1
