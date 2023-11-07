@@ -1,5 +1,5 @@
 # Copy from https://raw.githubusercontent.com/projectcalico/calico/release-v3.25/manifests/calico.yaml
----
+# !!! need to change the CALICO_IPV4POOL_CIDR value to a correct k8s_cluster_pod_network_cidr
 ---
 # Source: calico/templates/calico-kube-controllers.yaml
 # This manifest creates a Pod Disruption Budget for Controller to allow K8s Cluster Autoscaler to evict
